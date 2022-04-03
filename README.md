@@ -38,5 +38,21 @@ Database Northwind ini menggambarkan database milik suatu perusahaan fiktif yang
   <img width="400" height="300" src="https://docs.yugabyte.com/images/sample-data/northwind/northwind-er-diagram.png">
 </p>
 
+## **Steps, Process, and Answer**
+
+Seperti telah dijelaskan sebelumnya pembuatan capstone project module 2 berfokus pada pembuatan sebuah rangkaian analisa terhadap suatu dataset tertentu (Northwind Database). Pada project ini penulis menggunakan tabel employee sebagai fokus analisa yang dilakukan. Terdapat 
+[**list down question**](https://github.com/yandaaw/Capstone-Project-Module-02-Northwind-Employee-Data-Analysis/blob/main/Capstone%20Project%20Module%202%20Listdown%20Question%20Doc.pdf) yang penulis telah buat pada bagian isi folder project. <br> <br>
+Kemudian untuk data analysis proses, penulis menggunakan 6-key steps sebagai panduan dalam pembuatan project capstone module 2. Yang mana proses-proses dibawah mengacu pada sifat iteratif dari proses pemecahan masalah berdasarkan alur kerangka kerja atau metodologi project data science seperti pada gambar dibawah.
+1.	Step 1: Define problem statement / data requirements specification.
+2.	Step 2: Data collection (including SQL connectivity using python).
+3.	Step 3: Data cleansing
+4.	Step 4: Data preprocessing 
+5.	Step 5: Data analysis
+6.	Step 6: Data communication (visualize and share the results)
+![image](https://user-images.githubusercontent.com/73176284/161413233-cce4269a-bddb-4185-aa15-9eb88544d002.png)
+<br>
+
+Untuk detail proses dan hasil analisa yang juga menjawab seluruh pertanyaan-pertanyaan yang telah di jelaskan sebelumnya dapat dilihat pada hasil [**berikut**](https://github.com/yandaaw/Capstone-Project-Module-02-Northwind-Employee-Data-Analysis/blob/main/Capstone%20Project%20Modul%202_Employee.ipynb).
+
 ## Video Explanation
 **Link Video:** [Capstone Project Module 02 - Northwind Employee Data Analysis](https://youtu.be/Jq41rhISAX0)
