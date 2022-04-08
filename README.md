@@ -24,8 +24,24 @@ Capstone Project module 2 memiliki fokus pada pembuatan sebuah rangkaian proses 
 ## Programming Language
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" width="20" height="20" /> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgQejmuwOaqLE3MboVe3ftOnRAjhm4vm6dbfAuC3dy5zs5ggVEYAxPkr2UHR1Xi3mF12Y&usqp=CAU" width="20" height="20" />
 
-## Dataset
-Database yang digunakan dapat langsung di download pada link website berikut [**Northwind Database**](https://drive.google.com/drive/folders/1fTHrwh_gcLsOFKXHnUzUGEu_APxLoD9i)
+## Database Information
+Database yang digunakan dapat langsung di download pada link website berikut [**Northwind Database**](https://drive.google.com/drive/folders/1fTHrwh_gcLsOFKXHnUzUGEu_APxLoD9i)<br>
+
+Database yang dimiliki mempunyai 13 tabel, yaitu:<br>
+- Customers : Menyimpan informasi tentang data pelanggan/customer.<br>
+- Customer Demographics : Menyimpan informasi demografis dari customer.<br>
+- Suppliers : Menyimpan infrormasi pihak / perusahaan pemasok produk-produk untuk perusahaan Northwind.<br>
+- Shippers : Menyimpan informasi pihak kurir / pengirim.<br>
+- Employees : Menyimpan semua informasi tentang karyawan.<br>
+- Products : Menyimpan informasi tentang jenis produk.<br>
+- Categories : Menyimpan informasi tentang kategori jenis produk beserta detail informasi lainnya.<br>
+- Orders : Menyimpan informasi jual-beli yang dilakukan oleh pelanggan.<br>
+- OrderDetails : Menyimpan detail dari setiap pesanan yang dilakukan oleh pelanggan.<br>
+- Region : Menyimpan informasi seluruh region pada data.<br>
+- Territories : Menyimpan informasi seluruh territories pada data.<br>
+- Employee Territories : Menyimpan informasi teritori / lokasi kerja karyawan Northwind.<br>
+
+Setiap tabel yang tertera pada database dapat terhubung, baik secara langsung maupun tidak langsung. Sehingga setiap informasi dari database ini akan dapat saling berkaitan. **Kemudian Fokus utama dari analisis ini terdapat pada tabel Employee, dan Orders. Tabel lain akan digunakan sebagai penunjang informasi yang diperlukan untuk kedua tabel tersebut**.
 
 ## Background
 <p align="center">
@@ -43,7 +59,7 @@ Database Northwind ini menggambarkan database milik suatu perusahaan fiktif yang
 Seperti telah dijelaskan sebelumnya pembuatan capstone project module 2 berfokus pada pembuatan sebuah rangkaian analisa terhadap suatu dataset tertentu (Northwind Database). Pada project ini penulis menggunakan tabel employee sebagai fokus analisa yang dilakukan. Terdapat 
 [**list down question**](https://github.com/yandaaw/Capstone-Project-Module-02-Northwind-Employee-Data-Analysis/blob/main/Capstone%20Project%20Module%202%20Listdown%20Question%20Doc.pdf) yang penulis telah buat pada bagian isi folder project. <br> <br>
 Kemudian untuk data analysis proses, penulis menggunakan 6-key steps sebagai panduan dalam pembuatan project capstone module 2. Yang mana proses-proses dibawah mengacu pada sifat iteratif dari proses pemecahan masalah berdasarkan alur kerangka kerja atau metodologi project data science seperti pada gambar dibawah.
-1.	Step 1: Define problem statement / data requirements specification.
+1.  Step 1: Define problem statement / data requirements specification.
 2.	Step 2: Data collection (including SQL connectivity using python).
 3.	Step 3: Data cleansing
 4.	Step 4: Data preprocessing 
@@ -53,6 +69,16 @@ Kemudian untuk data analysis proses, penulis menggunakan 6-key steps sebagai pan
 <br>
 
 Untuk detail proses dan hasil analisa yang juga menjawab seluruh pertanyaan-pertanyaan yang telah di jelaskan sebelumnya dapat dilihat pada hasil [**berikut**](https://github.com/yandaaw/Capstone-Project-Module-02-Northwind-Employee-Data-Analysis/blob/main/Capstone%20Project%20Modul%202_Employee.ipynb).
+
+## Built With
+Berikut merupakan detail dari bahasa pemrograman dan _libraries_ yang digunakan dalam membangun project ini: <br>
+- [**pandas**](https://pandas.pydata.org/)<br>
+- [**NumPy**](https://numpy.org/)<br>
+- [**MySQL**](https://www.mysql.com/products/connector/)<br>
+- [**seaborn**](https://seaborn.pydata.org/)<br>
+- [**matplotlib**](https://matplotlib.org/)<br>
+- [**plotly**](https://plotly.com/)<br>
+- [**SciPy**](https://scipy.org/)
 
 ## Video Explanation
 **Link Video:** [Capstone Project Module 02 - Northwind Employee Data Analysis](https://youtu.be/Jq41rhISAX0)
